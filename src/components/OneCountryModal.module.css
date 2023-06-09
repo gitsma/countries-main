@@ -1,0 +1,70 @@
+
+.OneCountryCard {   
+    background-image: url("https://www.pngall.com/wp-content/uploads/2017/05/World-Map-Transparent.png");
+    border: 0.5px rgba(0, 0, 0, 0.493) solid;
+    color: rgba(0, 0, 0, 0.713);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background-size: contain;
+}
+
+.CountryFlag {
+    height:40%;
+    border: 0.5px solid rgba(0, 0, 0, 0.462);
+    display: flex;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    justify-content: center;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+.CountryInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+h5 {
+    height: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: 0.5px rgba(0, 0, 0, 0.493) solid;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+.First {
+    height: 50px;
+    padding-bottom: 10px;
+}
+.Second {
+    height: 50px;
+    padding-bottom: 10px;
+}
+.Third {
+    height: 50px;
+    padding-bottom: 10px;
+}
+.Fourth {
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+

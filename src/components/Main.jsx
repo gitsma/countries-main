@@ -4,6 +4,7 @@ import Regions from './Regions';
 import Countries from './Countries';
 import Modal from 'react-modal';
 import OneCountryModal from './OneCountryModal';
+import './OneCountryModal.module.css';
 
 
 

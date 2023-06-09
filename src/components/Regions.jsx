@@ -10,8 +10,8 @@ const Regions = ({ regions, filterData, searchCountries }) => {
     console.log(regions);
 
 return (
-    <div>
-        <Navbar bg="dark" variant="dark">
+    <div className="container-fluid">
+        <Navbar bg="light" variant="light">
         <Container>
             <Navbar.Brand href = "#home" className="mx-5">Countries</Navbar.Brand>
             <Nav className = "me-auto">
@@ -23,7 +23,7 @@ return (
             <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Search Country..."
               className="me-2"
               aria-label="Search"
               onChange={(e) => searchCountries(e.target.value)}

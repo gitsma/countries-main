@@ -5,17 +5,16 @@ import Card from 'react-bootstrap/Card';
 const Country = ( { allCountries, getOneCountryInfo }) => {
     console.log(allCountries)
   return (
-    <div className = "d-flex justify-content-center flex-wrap">
-        {allCountries !== undefined && allCountries.length !== 0 ? 
+    <div className = "d-flex justify-content-between flex-wrap" style={{fontFamily: 'Raleway'}}>
+        {allCountries !== undefined && allCountries.length !== 0 ?  
         allCountries.map((country, index) => (
-            <Card style = {{ width: '18rem', margin: '1rem'}} key={index}>
-                <Card.Img variant = "top" src={country.flags.png} />
-                <Card.Body>
-                    <Card.Title>{country.name.common}</Card.Title>
-                    <Card.Text>Capital - {country.capital}</Card.Text>
-                    <Card.Text>Region - {country.region}</Card.Text>
-                    <Button variant="primary"
-                    onClick={() => getOneCountryInfo(country.name.common) }> More info</Button>
+            <Card style = {{ width: '20rem', margin: '1rem', border: '0.5px rgba(0, 0, 0, 0.493) solid', backgroundColor: 'rgba(0, 0, 0, 0.030)' }} key={index}>
+                <Card.Text className="d-flex align-self-end" style={{margin: '0.5rem'}}>{country.region}</Card.Text>
+                <Card.Text className="d-flex align-self-end" style={{margin: '0.5rem'}}>Capital: {country.capital}</Card.Text>
+                <Card.Title className="d-flex align-self-center">{country.name.common}</Card.Title>
+                <Card.Body className="d-flex flex-wrap">
+                <Card.Img style={{height: '10rem', marginBottom: '1rem', border: '0.5px rgba(0, 0, 0, 0.493) solid'}} variant = "top" src={country.flags.png} />    
+                <Button className="d-flex float-right" variant="secondary" onClick={() => getOneCountryInfo(country.name.common) }> More info</Button>
                 </Card.Body>
             </Card>
         ))
