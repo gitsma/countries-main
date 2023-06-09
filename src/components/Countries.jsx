@@ -18,7 +18,7 @@ const Country = ( { allCountries, getOneCountryInfo }) => {
                 </Card.Body>
             </Card>
         ))
-    : <h1>Duomenys nerasti</h1>
+    : <h1></h1>
     }
 
     </div>
