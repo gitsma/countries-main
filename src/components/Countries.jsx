@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 const Country = ( { allCountries, getOneCountryInfo }) => {
     console.log(allCountries)
   return (
-    <div className = "d-flex justify-content-between flex-wrap" style={{fontFamily: 'Raleway'}}>
+    <div className = "d-flex justify-content-evenly flex-wrap" style={{fontFamily: 'Raleway'}}>
         {allCountries !== undefined && allCountries.length !== 0 ?  
         allCountries.map((country, index) => (
             <Card style = {{ width: '20rem', margin: '1rem', border: '0.5px rgba(0, 0, 0, 0.493) solid', backgroundColor: 'rgba(0, 0, 0, 0.030)' }} key={index}>
@@ -18,7 +18,7 @@ const Country = ( { allCountries, getOneCountryInfo }) => {
                 </Card.Body>
             </Card>
         ))
-    : <h1>Duomenys nerasti</h1>
+    : <h1></h1>
     }
 
     </div>

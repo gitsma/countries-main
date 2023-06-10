@@ -10,26 +10,27 @@ const Regions = ({ regions, filterData, searchCountries }) => {
     console.log(regions);
 
 return (
-    <div className="container-fluid">
+    <div>
+<Form > 
+            <Form.Control
+              type="search"
+              placeholder="Search Country..."
+              className="me-5"
+              aria-label="Search"
+              onChange={(e) => searchCountries(e.target.value)}
+            />
+            </Form>
         <Navbar bg="light" variant="light">
-        <Container>
-            <Navbar.Brand href = "#home" className="mx-5">Countries</Navbar.Brand>
-            <Nav className = "me-auto">
+        
+
+            <Navbar.Brand  className="ms-auto" href = "#home">Countries</Navbar.Brand>
+            <Nav className = "me-auto d-flex flex-wrap">
                 { regions.map((region, index) => (
                     <Nav.Link href ="#" key={index} onClick={() => filterData(region)}>{region}</Nav.Link>
                 ))}
 
             </Nav>
-            <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search Country..."
-              className="me-2"
-              aria-label="Search"
-              onChange={(e) => searchCountries(e.target.value)}
-            />
-            </Form>
-        </Container>
+            
         </Navbar>
     </div>
 )
