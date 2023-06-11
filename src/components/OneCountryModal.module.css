@@ -1,5 +1,6 @@
     @media (max-width:480px){
         .OneCountryCard {   
+            background-image: none;
             width: 320px;
             height: 700px;
             padding: 5px;
@@ -7,7 +8,7 @@
         }
         
         .CountryFlag {
-            height: 15%;
+            width: 250px;
             margin-bottom: 5px;
         }
         
@@ -67,7 +68,7 @@
 }
 
 .CountryFlag {
-    height:40%;
+    width: 40%;
     border: 0.5px solid rgba(0, 0, 0, 0.462);
     display: flex;
     justify-items: center;
@@ -106,5 +107,20 @@ h5 {
     font-weight: bold;
 }
 
-
+.First {
+    height: 50px;
+    padding-bottom: 5px;
+}
+.Second {
+    height: 50px;
+    padding-bottom: 5px;
+}
+.Third {
+    height: 50px;
+    padding-bottom: 5px;
+}
+.Fourth {
+    height: 50px;
+    padding-bottom: 5px;
+}
 
