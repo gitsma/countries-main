@@ -1,3 +1,38 @@
+    @media (max-width:480px){
+        .OneCountryCard {   
+            width: 320px;
+            height: 700px;
+            padding: 5px;
+        }
+        
+        .CountryFlag {
+            height:120px;
+            margin-bottom: 5px;
+        }
+        
+        h1 {
+            font-size: 20px;
+        }
+        
+        h2 {
+            font-size: 15px;
+        }
+        
+        .CountryInfo{
+            display: block;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        h5 {
+            height: 20px;
+            padding-left: 5px;
+            padding-right: 15px;
+        }
+
+
+    }
+
 
 .OneCountryCard {   
     background-image: url("https://www.pngall.com/wp-content/uploads/2017/05/World-Map-Transparent.png");
@@ -26,7 +61,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     margin: 0;
-    font-size: 30px;
+    font-size: 5%;
     align-items: center;
 }
 
