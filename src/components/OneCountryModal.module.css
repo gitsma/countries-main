@@ -1,6 +1,7 @@
     @media (max-width:480px){
         .OneCountryCard {   
-            background-image: none;
+            background-image: unset;
+            background-color: white;
             width: 320px;
             height: 700px;
             padding: 5px;
@@ -68,7 +69,7 @@
 }
 
 .CountryFlag {
-    width: 40%;
+    width: 25%;
     border: 0.5px solid rgba(0, 0, 0, 0.462);
     display: flex;
     justify-items: center;

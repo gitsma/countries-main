@@ -37,7 +37,7 @@ const OneCountryModal = ({oneCountry, setModalIsOpenToFalse}) => {
             <h5> <strong>Language(s): </strong><br/> {Object.values(oneCountry[0].languages).join(', ')}</h5>
           </div>
         </div>
-        <Button type="button" className="btn btn-dark d-flex justify-content-center col-2" onClick={setModalIsOpenToFalse}> close </Button>
+        <Button type="button" className="btn btn-secondary d-flex justify-content-center font-size" onClick={setModalIsOpenToFalse}> close </Button>
         
 
         </div>  
