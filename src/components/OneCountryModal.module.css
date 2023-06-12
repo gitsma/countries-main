@@ -1,61 +1,3 @@
-    @media (max-width:480px){
-        .OneCountryCard {   
-            background-image: unset;
-            background-color: white;
-            width: 320px;
-            height: 700px;
-            padding: 5px;
-            border: none;
-        }
-        
-        .CountryFlag {
-            width: 250px;
-            margin-bottom: 5px;
-        }
-        
-        h1 {
-            font-size: 20px;
-        }
-        
-        h2 {
-            font-size: 15px;
-        }
-        
-        .CountryInfo{
-            display: flex;
-            flex-direction: column-reverse;
-            justify-content: space-between;
-            margin-bottom: 5px;
-        }
-        
-        h5 {
-            display: inline;
-            height: 20px;
-            padding-left: 5px;
-            padding-right: 15px;
-        }
-
-        .First {
-            height: 20px;
-            padding-bottom: 5px;
-        }
-        .Second {
-            height: 20px;
-            padding-bottom: 5px;
-        }
-        .Third {
-            height: 20px;
-            padding-bottom: 5px;
-        }
-        .Fourth {
-            height: 20px;
-            padding-bottom: 5px;
-        }
-
-
-    }
-
-
 .OneCountryCard {   
     background-image: url("https://www.pngall.com/wp-content/uploads/2017/05/World-Map-Transparent.png");
     border: 0.5px rgba(0, 0, 0, 0.493) solid;
@@ -123,5 +65,63 @@ h5 {
 .Fourth {
     height: 50px;
     padding-bottom: 5px;
+}
+
+@media (max-width:480px){
+    .OneCountryCard {   
+        background-image: unset;
+        background-size: unset;
+        background-color: white;
+        width: 350px;
+        height: 700px;
+        padding: 5px;
+        border: none;
+    }
+    
+    .CountryFlag {
+        width: 250px;
+        margin-bottom: 5px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    
+    .CountryInfo{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    
+    h5 {
+        display: inline;
+        height: 20px;
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+
+    .First {
+        height: 10px;
+        padding-bottom: 5px;
+    }
+    .Second {
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    .Third {
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    .Fourth {
+        height: 20px;
+        padding-bottom: 5px;
+    }
+
+
 }
 
