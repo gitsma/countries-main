@@ -1,0 +1,13 @@
+.Navbar {
+    width: 100vw;
+}
+.NavBk {
+    background: linear-gradient(to right, #0d0437, #4343c3);
+}
+
+.NavLink h6{
+    color: white;
+    text-transform: uppercase;
+}
+     
+

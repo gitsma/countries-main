@@ -1,0 +1,57 @@
+.Card {
+    width: 18rem;
+    margin: 1rem;
+    border: 0.5px #0b0237 solid;
+    box-shadow: 1px;
+    display: flex;
+
+}
+
+.CardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-family: 'Raleway';
+
+}
+
+.CardText {
+    display: flex;
+    align-self: flex-end;
+    margin: 0.5rem;
+
+}
+
+.CardText2 {
+    display: flex;
+    align-self: flex-end;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.CardTitle {
+    display: flex;
+    align-self: center;
+}
+
+.CardBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+               
+.CardImg {
+    height: 10rem;
+    margin-bottom: 1rem;
+    border: 0.5px rgba(0, 0, 0, 0.493) solid
+}
+
+.CardBtn {
+
+    width: 100%;
+    background: linear-gradient(to right, #040115, #3a3b57);
+}
+
+.CardBtn:hover {
+    background: linear-gradient(to right,  #3a3b57, #040115);
+    }

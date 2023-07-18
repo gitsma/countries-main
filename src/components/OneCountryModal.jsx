@@ -25,7 +25,7 @@ const OneCountryModal = ({oneCountry, setModalIsOpenToFalse}) => {
             <h5> <strong>Population: </strong><br/> {oneCountry[0].population}</h5>
           </div>
           <div>
-            <img className={styles.Second} src={"https://img.uxwing.com/wp-content/themes/uxwing/download/location-travel-map/area-icon.png"}></img>
+            <img className={styles.Second} src={"https://es.calcuworld.com/wp-content/uploads/sites/2/2019/10/dieta-zona.png"}></img>
             <h5> <strong>Size: </strong><br/> {oneCountry[0].area} sq.km </h5>
           </div>
           <div>
@@ -37,7 +37,7 @@ const OneCountryModal = ({oneCountry, setModalIsOpenToFalse}) => {
             <h5> <strong>Language(s): </strong><br/> {Object.values(oneCountry[0].languages).join(', ')}</h5>
           </div>
         </div>
-        <Button type="button" className="btn btn-secondary d-flex justify-content-center font-size" onClick={setModalIsOpenToFalse}> close </Button>
+        <Button className={styles.ModalBtn} onClick={setModalIsOpenToFalse}> Close </Button>
         
 
         </div>  

@@ -5,6 +5,7 @@ import Countries from './Countries';
 import Modal from 'react-modal';
 import OneCountryModal from './OneCountryModal';
 import './OneCountryModal.module.css';
+import './Main.module.css'
 
 
 
@@ -78,7 +79,7 @@ const setModalIsOpenToFalse = () => {
 
 
   return (
-    <div className ='container'>
+    <div className ='MainContainer'>
         <Regions regions = {uniqueRegions} filterData = {filterData} searchCountries={getSearchResult} />
         <Countries allCountries={filteredCountries} getOneCountryInfo={getOneCountryInfo} setModalIsOpenToTrue={setModalIsOpenToTrue}/>
         <Modal isOpen={modalIsOpen}>
