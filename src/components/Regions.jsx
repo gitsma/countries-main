@@ -13,11 +13,11 @@ const Regions = ({ regions, filterData, searchCountries }) => {
   return (    
     <div className={styles.Navbar}>
       <Navbar className={styles.NavBk} style={{paddingLeft: '50px', paddingRight: '50px', }}>
-        <Navbar.Brand className="ms-auto" style={{color: 'white'}} href="#home"> 
+        <Navbar.Brand className={styles.NavbarBrand} style={{color: 'white'}} href="#home"> 
           <h2>Where in the</h2>
           <h1>World?</h1>
         </Navbar.Brand> 
-        <Nav className="ms-auto d-flex flex-wrap" style={{paddingLeft: '50px', width: '100%', justifyContent: 'space-around'}}>
+        <Nav className="ms-auto d-flex flex-wrap" style={{paddingLeft: '0px', width: '100%', justifyContent: 'space-around'}}>
           {regions.map((region, index) => (
             <Nav.Link className={styles.NavLink} href="#" key={index} onClick={() => filterData(region)}>
               <h6>{region}</h6>

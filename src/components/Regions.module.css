@@ -9,5 +9,13 @@
     color: white;
     text-transform: uppercase;
 }
+
+@media (max-width:480px){
+
+     .NavbarBrand {
+        display: none;
+    }
+
+}
      
 
