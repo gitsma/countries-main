@@ -1,8 +1,32 @@
 .Navbar {
     width: 100vw;
 }
+
 .NavBk {
     background: linear-gradient(to right, #0d0437, #4343c3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    width: 100%;
+}
+
+.Nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 58px;
+    width: 100%;
+
+    
+}
+
+.NavbarBrand{
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.NavbarBrand h1, .NavbarBrand h2 {
+    color: white;
 }
 
 .NavLink h6{
@@ -10,12 +34,22 @@
     text-transform: uppercase;
 }
 
+.Search {
+    width: 60%;
+}
 @media (max-width:480px){
-
+ 
      .NavbarBrand {
         display: none;
     }
 
+    .Search {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .NavBk {
+        background: linear-gradient(to right, #040115, #3a3b57);
+    }
 }
-     
 

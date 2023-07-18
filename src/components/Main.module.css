@@ -1,5 +1,9 @@
 .MainContainer {
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
+    width: 100vw;
+}
 
+.Modal {
+    height: 200px;
 }

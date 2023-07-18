@@ -12,23 +12,22 @@ const Regions = ({ regions, filterData, searchCountries }) => {
 
   return (    
     <div className={styles.Navbar}>
-      <Navbar className={styles.NavBk} style={{paddingLeft: '50px', paddingRight: '50px', }}>
-        <Navbar.Brand className={styles.NavbarBrand} style={{color: 'white'}} href="#home"> 
+      <Navbar className={styles.NavBk}>
+        <Navbar.Brand className={styles.NavbarBrand} href="#home"> 
           <h2>Where in the</h2>
           <h1>World?</h1>
         </Navbar.Brand> 
-        <Nav className="ms-auto d-flex flex-wrap" style={{paddingLeft: '0px', width: '100%', justifyContent: 'space-around'}}>
+        <Nav className={styles.Nav}>
           {regions.map((region, index) => (
             <Nav.Link className={styles.NavLink} href="#" key={index} onClick={() => filterData(region)}>
               <h6>{region}</h6>
             </Nav.Link>       
           ))}
-          <Form style={{width: '100%'}}>
+          <Form className={styles.Search}>
             <Form.Control
-            
               type="search"
               placeholder="Search for a country..."
-              className="me-5 d-flex flex-wrap flex-column"
+              className="me-4 d-flex flex-wrap flex-column"
               aria-label="Search"
               onChange={(e) => searchCountries(e.target.value)}
             />    

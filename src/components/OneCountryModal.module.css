@@ -82,19 +82,21 @@ h5 {
 
 
 @media (max-width:480px){
+ 
     .OneCountryCard {   
         background-image: unset;
         background-size: unset;
         background-color: white;
         width: 250px;
-        height: 700px;
-        padding: 5px;
+        height: 100vh;
+        padding: 0px;
         border: none;
+        overflow: hidden;
     }
     
     .CountryFlag {
-        width: 250px;
-        margin-bottom: 5px;
+        width: 230px;
+        margin-bottom: 10px;
     }
     
     h1 {
@@ -108,10 +110,12 @@ h5 {
     .CountryInfo{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: space-between;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     
+    .Info {
+        padding-bottom: 10px;
+    }
     h5 {
         display: inline;
         height: 20px;
@@ -136,6 +140,8 @@ h5 {
         height: 20px;
         padding-bottom: 5px;
     }
+
+    
 
 
 }
