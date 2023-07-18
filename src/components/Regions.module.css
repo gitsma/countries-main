@@ -3,11 +3,13 @@
 }
 
 .NavBk {
-    background: linear-gradient(to right, #0d0437, #4343c3);
+    background-image: url("https://www.pngall.com/wp-content/uploads/2017/05/World-Map-Transparent.png");
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0;
     width: 100%;
+    height: 170px;
+    border-bottom: 0.5px solid rgb(200, 200, 200);
 }
 
 .Nav {
@@ -26,11 +28,13 @@
 }
 
 .NavbarBrand h1, .NavbarBrand h2 {
-    color: white;
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+    
 }
 
 .NavLink h6{
-    color: white;
+    color: rgb(60, 60, 60);
     text-transform: uppercase;
 }
 
@@ -48,8 +52,5 @@
         padding-left: 50px;
     }
 
-    .NavBk {
-        background: linear-gradient(to right, #040115, #3a3b57);
-    }
 }
 
