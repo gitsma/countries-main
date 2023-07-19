@@ -78,7 +78,7 @@ h5 {
 }
 
 .ModalBtn:hover {
-    background: rgb(220, 220, 221) !important;
+    background: rgb(241, 241, 242) !important;
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;

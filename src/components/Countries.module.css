@@ -48,7 +48,7 @@
 
 .CardBtn {
     width: 100%;
-    background: rgb(220, 220, 221) !important;
+    background: white !important;
     border-color: rgb(176, 176, 176) !important;
     color: black !important;
 }
@@ -127,4 +127,5 @@
  animation: swing 1s ease;
  -webkit-animation-iteration-count: 1;
  animation-iteration-count: 1;
+ background: rgb(241, 241, 242) !important;
 }
