@@ -82,6 +82,7 @@ h5 {
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+    background: rgb(241, 241, 242) !important;
     }
 
     @-webkit-keyframes ModalBtn
@@ -151,11 +152,6 @@ h5 {
      }
     }
     
-    .CardBtn:hover
-    {
-
-    }
-
 
 @media (max-width:480px){
  
