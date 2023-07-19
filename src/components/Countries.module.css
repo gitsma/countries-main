@@ -3,7 +3,7 @@
     margin: 1rem;
     box-shadow: 1px;
     display: flex;
-    border-color: gray !important;
+    border-color: rgb(176, 176, 176) !important;
 
 }
 
@@ -48,8 +48,8 @@
 
 .CardBtn {
     width: 100%;
-    background: rgb(184, 184, 186) !important;
-    border-color: gray !important;
+    background: rgb(220, 220, 221) !important;
+    border-color: rgb(176, 176, 176) !important;
     color: black !important;
 }
 
