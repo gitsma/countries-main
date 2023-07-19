@@ -4,6 +4,7 @@
     box-shadow: 1px;
     display: flex;
     border-color: rgb(176, 176, 176) !important;
+    background-color: rgb(246, 246, 246) !important;
 
 }
 
@@ -127,5 +128,4 @@
  animation: swing 1s ease;
  -webkit-animation-iteration-count: 1;
  animation-iteration-count: 1;
- background: rgb(241, 241, 242) !important;
 }
